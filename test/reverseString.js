@@ -10,11 +10,11 @@ describe('reverseString', function() {
       expect(reverseString.reverse()).to.be.undefined;
     });
 
-    it('should return "olleh"', function() {
+    it('reverse("hello") should return "olleh"', function() {
       expect(reverseString.reverse('hello')).to.equal('olleh');
     });
 
-    it('should return "gnirtS rehtonA"', function() {
+    it('reverse("Another String") should return "gnirtS rehtonA"', function() {
       expect(reverseString.reverse('Another String')).to.equal('gnirtS rehtonA');
     });
   });
