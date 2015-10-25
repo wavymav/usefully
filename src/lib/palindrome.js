@@ -1,6 +1,6 @@
 'use strict';
 
-var palindrome = function(str) {
+var palindromeCheck = function(str) {
   if (typeof(str) === 'string') {
     var word = str.replace(/[\W_]/g, '').toLowerCase(),
         wordReversed = str.replace(/[\W_]/g, '').split('').reverse().join('').toLowerCase();
@@ -15,5 +15,5 @@ var palindrome = function(str) {
 };
 
 module.exports = {
-  check: palindrome
+  palindrome: palindromeCheck
 };

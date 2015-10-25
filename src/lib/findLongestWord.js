@@ -1,3 +1,5 @@
+'use strict';
+
 var findLongestWord = function(str) {
   if (typeof(str) === 'string') {
     var wordArray = str.split(' '),
