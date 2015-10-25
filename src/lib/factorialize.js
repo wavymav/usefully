@@ -1,3 +1,5 @@
+'use strict';
+
 var factorialize = function(num) {
   if (typeof(num) === 'number') {
     if (num === 1 || num === 0) {
