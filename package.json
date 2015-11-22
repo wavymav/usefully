@@ -1,14 +1,15 @@
 {
-  "name": "useful-methods",
+  "name": "useful",
   "version": "0.0.0",
   "description": "A library of some useful methods",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --compilers js:babel-core/register --recursive",
+    "test:watch": "npm run test -- --watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wavymav/useful-methods.git"
+    "url": "git+https://github.com/wavymav/useful.git"
   },
   "keywords": [
     "useful",
@@ -17,11 +18,19 @@
   "author": "Marcus Barnes <mavjbarnes@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wavymav/useful-methods/issues"
+    "url": "https://github.com/wavymav/useful/issues"
   },
-  "homepage": "https://github.com/wavymav/useful-methods#readme",
+  "homepage": "https://github.com/wavymav/useful#readme",
   "devDependencies": {
-    "chai": "3.4.0",
-    "mocha": "2.3.3"
+    "babel-cli": "6.2.0",
+    "babel-core": "6.2.0",
+    "babel-preset-es2015": "6.1.18",
+    "chai": "3.4.1",
+    "mocha": "2.3.4"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
   }
 }
