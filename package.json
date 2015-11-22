@@ -1,7 +1,7 @@
 {
   "name": "usefully",
   "version": "1.0.0",
-  "description": "A library of some usefully methods",
+  "description": "A library of some useful functions",
   "main": "dist/index.js",
   "scripts": {
     "prebuild": "rm -rf dist && mkdir dist",
@@ -15,7 +15,7 @@
   },
   "keywords": [
     "usefully",
-    "useful",
+    "useful"
   ],
   "author": "Marcus Barnes <mavjbarnes@gmail.com>",
   "license": "MIT",
