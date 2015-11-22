@@ -1,6 +1,6 @@
 /**
  * Finds the longest word in a given string. First checks if the passed in param
- * is not a data type of string. If true returns undefiend, if false proceeds on.
+ * is not a data type of string. If true returns undefined, if false proceeds on.
  * Used the split property on the passed in string to convert into an array of
  * words and assigned it to wordArr. Initialized longestWord & currentWordLength
  * & declared previousWordLength to be 0. Used the forEach property to check

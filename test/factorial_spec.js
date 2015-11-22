@@ -22,22 +22,22 @@ describe('factorial()', () => {
     expect(factorial(num)).to.equal(120);
   });
 
-  it('should return 3628800', function() {
+  it('should return 3628800', () => {
     const num = 10
     expect(factorial(num)).to.equal(3628800);
   });
 
-  it('should return 2432902008176640000', function() {
+  it('should return 2432902008176640000', () => {
     const num = 20;
     expect(factorial(num)).to.equal(2432902008176640000);
   });
 
-  it('should return 1 when', function() {
+  it('should return 1', () => {
     const num = 0;
     expect(factorial(num)).to.equal(1);
   });
 
-  it('should return 1 when @num is 1', function() {
+  it('should return 1', () => {
     const num = 1;
     expect(factorial(num)).to.equal(1);
   });
