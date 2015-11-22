@@ -1,7 +1,7 @@
 {
-  "name": "useful",
+  "name": "usefully",
   "version": "1.0.0",
-  "description": "A library of some useful methods",
+  "description": "A library of some usefully methods",
   "main": "dist/index.js",
   "scripts": {
     "prebuild": "rm -rf dist && mkdir dist",
@@ -11,18 +11,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wavymav/useful.git"
+    "url": "git+https://github.com/wavymav/usefully.git"
   },
   "keywords": [
+    "usefully",
     "useful",
-    "methods"
   ],
   "author": "Marcus Barnes <mavjbarnes@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wavymav/useful/issues"
+    "url": "https://github.com/wavymav/usefully/issues"
   },
-  "homepage": "https://github.com/wavymav/useful#readme",
+  "homepage": "https://github.com/wavymav/usefully#readme",
   "devDependencies": {
     "babel-cli": "6.2.0",
     "babel-core": "6.2.0",
