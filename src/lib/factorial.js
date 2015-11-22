@@ -1,6 +1,6 @@
 /**
  * First checks to see if the passed in param is not a data type of Number. If
- * false return undefined, if true proceeds onward. Used recursion to get the
+ * true return undefined, if false proceeds onward. Used recursion to get the
  * final value. Will end when the return value is either 1 or 0.
  * @param  {Number} num - A simple integer
  * @return {Number}     - The factorial value of the passed in integer
