@@ -48,3 +48,12 @@ Object.defineProperty(exports, 'title', {
     return _title.title;
   }
 });
+
+var _largestSubVal = require('./lib/largestSubVal');
+
+Object.defineProperty(exports, 'largestSubVal', {
+  enumerable: true,
+  get: function get() {
+    return _largestSubVal.largestSubVal;
+  }
+});

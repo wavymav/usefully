@@ -3,7 +3,7 @@
  * program proceeds on. Declares an array & Initializes 2 variables. Next, the
  * string argument is spilt into an Array of words upon which the forEach method
  * is called to iterate through the array. With each word I grab the 0 index of
- * word and capitalize it. Following that I store the every after the 0 index 
+ * word and capitalize it. Following that I store the every after the 0 index
  * with the substr method and convert it to lowercase. Afterwards I concat and
  * push the two new strings to wordArr. Finally I join the wordArr back into a
  * string.
