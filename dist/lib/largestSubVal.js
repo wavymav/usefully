@@ -16,7 +16,7 @@ function largestSubVal(arr) {
       currentNumber = undefined;
 
   arr.forEach(function (subArr) {
-    if (!Array.isArray(subArr)) return newArray = [];
+    if (!Array.isArray(subArr)) return undefined;
     var comparison = 0;
     subArr.forEach(function (value) {
       if (typeof value !== 'number') return newArray = [];
@@ -28,7 +28,7 @@ function largestSubVal(arr) {
     largestNumber = comparison;
     newArray.push(largestNumber);
   });
-  if (newArray.length !== arr.length) return newArray = [];
+  if (newArray.length !== arr.length) return newArray = undefined;
   return newArray;
 }
 

@@ -17,7 +17,7 @@ describe('largestSubVal()', () => {
     expect(largestSubVal(obj)).to.be.undefined;
   });
 
-  it('should return []', () => {
+  it('should return undefined if Array index values fail check', () => {
     const arrStr = ['1', '2', '4', '5'];
     const arrNum = [1, 2, 4, 5];
     const arrBool = [true, false, false];
@@ -44,13 +44,13 @@ describe('largestSubVal()', () => {
       { a:'1', b:'2', c:'4', d:'5'},
     ];
 
-    expect(largestSubVal(arrStr)).to.deep.equal([]);
-    expect(largestSubVal(arrNum)).to.deep.equal([]);
-    expect(largestSubVal(arrBool)).to.deep.equal([]);
-    expect(largestSubVal(arrStr2D)).to.deep.equal([]);
-    expect(largestSubVal(arrNum2D)).to.deep.equal([]);
-    expect(largestSubVal(arrNum2D2)).to.deep.equal([]);
-    expect(largestSubVal(arrStr2DObj)).to.deep.equal([]);
+    expect(largestSubVal(arrStr)).to.be.undefined
+    expect(largestSubVal(arrNum)).to.be.undefined
+    expect(largestSubVal(arrBool)).to.be.undefined
+    expect(largestSubVal(arrStr2D)).to.be.undefined
+    expect(largestSubVal(arrNum2D)).to.be.undefined
+    expect(largestSubVal(arrNum2D2)).to.be.undefined
+    expect(largestSubVal(arrStr2DObj)).to.be.undefined
   });
 
   it('should return [27, 5, 39, 1001, 56]', () => {

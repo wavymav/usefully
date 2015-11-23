@@ -9,7 +9,7 @@ export function largestSubVal(arr) {
   let largestNumber, currentNumber;
 
   arr.forEach(subArr => {
-    if (!Array.isArray(subArr)) return newArray = [];
+    if (!Array.isArray(subArr)) return undefined;
     let comparison = 0;
     subArr.forEach(value => {
       if (typeof(value) !== 'number') return newArray = [];
@@ -21,7 +21,7 @@ export function largestSubVal(arr) {
     largestNumber = comparison;
     newArray.push(largestNumber);
   });
-  if (newArray.length !== arr.length) return newArray = [];
+  if (newArray.length !== arr.length) return newArray = undefined;
   return newArray
 }
 
