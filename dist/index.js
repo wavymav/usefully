@@ -39,3 +39,12 @@ Object.defineProperty(exports, 'reverseStr', {
     return _reverseStr.reverseStr;
   }
 });
+
+var _title = require('./lib/title');
+
+Object.defineProperty(exports, 'title', {
+  enumerable: true,
+  get: function get() {
+    return _title.title;
+  }
+});
