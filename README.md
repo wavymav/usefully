@@ -4,3 +4,6 @@
 [![codecov coverage](https://img.shields.io/codecov/c/github/wavymav/usefully.svg?style=flat-square)](https://codecov.io/github/wavymav/usefully)
 [![version](https://img.shields.io/npm/v/usefully.svg?style=flat-square)](https://www.npmjs.com/package/usefully)
 [![MIT License](https://img.shields.io/npm/l/usefully.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+
+![Yup](https://media.giphy.com/media/MJs7EYwHyG8XC/giphy.gif)
+# Docs comming soon...
