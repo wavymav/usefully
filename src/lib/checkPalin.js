@@ -6,7 +6,7 @@
  * @param  {String} str - word or phrase
  * @return {Boolean}    - true or false
  */
-export function checkPalin(str) {
+export const checkPalin = (str) => {
   if (typeof(str) !== 'string') {
     throw new Error("Arguement must be of type string!");
   }

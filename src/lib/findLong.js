@@ -4,7 +4,7 @@
  * @param  {String} str - A simple string
  * @return {Number}     - The longestWord length value
  */
-export function findLong(str) {
+export const findLong = (str) => {
   if (typeof(str) !== 'string') {
     throw new Error("Arguement must be of type string!");
   }

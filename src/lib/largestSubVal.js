@@ -6,7 +6,7 @@
  * @param  {Array} arr      - A 2D array of numbers
  * @return {Array}          - An array of the largest value of each sub array
  */
-export function largestSubVal(arr) {
+export const largestSubVal = (arr) => {
   if (!Array.isArray(arr)) {
     throw new Error("Arguement must be an Array!");
   }

@@ -1,10 +1,10 @@
 /**
- * @function factorial  - Calculates the factorial of the number arguement passed in. 
+ * @function factorial  - Calculates the factorial of the number arguement passed in.
  *
  * @param  {Number} num - A simple integer
  * @return {Number}     - The factorial value of the passed in integer
  */
-export function factorial(num) {
+export const factorial = (num) => {
   if (typeof(num) !== 'number') {
     throw new Error("Arguement must be of type number!");
   }
