@@ -3,7 +3,6 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.findLong = findLong;
 
 function _typeof(obj) { return obj && typeof Symbol !== "undefined" && obj.constructor === Symbol ? "symbol" : typeof obj; }
 
@@ -13,7 +12,7 @@ function _typeof(obj) { return obj && typeof Symbol !== "undefined" && obj.const
  * @param  {String} str - A simple string
  * @return {Number}     - The longestWord length value
  */
-function findLong(str) {
+var findLong = exports.findLong = function findLong(str) {
   if (typeof str !== 'string') {
     throw new Error("Arguement must be of type string!");
   } else {
@@ -37,7 +36,7 @@ function findLong(str) {
 
     if ((typeof _ret === 'undefined' ? 'undefined' : _typeof(_ret)) === "object") return _ret.v;
   }
-}
+};
 
 /*******************************************************************************
 

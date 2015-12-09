@@ -3,7 +3,6 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.checkPalin = checkPalin;
 /**
  * @function checkPalin - Checks wheather the passed in arguement is a palindrome
  *           							or not. Will return true if argument is a palindrome.
@@ -12,7 +11,7 @@ exports.checkPalin = checkPalin;
  * @param  {String} str - word or phrase
  * @return {Boolean}    - true or false
  */
-function checkPalin(str) {
+var checkPalin = exports.checkPalin = function checkPalin(str) {
   if (typeof str !== 'string') {
     throw new Error("Arguement must be of type string!");
   } else {
@@ -20,4 +19,4 @@ function checkPalin(str) {
     var wordReversed = str.replace(/[\W_]/g, '').split('').reverse().join('').toLowerCase();
     if (word === wordReversed) return true;else return false;
   }
-}
+};

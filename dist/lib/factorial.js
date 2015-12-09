@@ -3,20 +3,19 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.factorial = factorial;
 /**
- * @function factorial  - Calculates the factorial of the number arguement passed in. 
+ * @function factorial  - Calculates the factorial of the number arguement passed in.
  *
  * @param  {Number} num - A simple integer
  * @return {Number}     - The factorial value of the passed in integer
  */
-function factorial(num) {
+var factorial = exports.factorial = function factorial(num) {
   if (typeof num !== 'number') {
     throw new Error("Arguement must be of type number!");
   } else {
     if (num === 0 || num === 1) return 1;else return num * factorial(num - 1);
   }
-}
+};
 
 /*******************************************************************************
 

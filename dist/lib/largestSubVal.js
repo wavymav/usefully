@@ -3,7 +3,6 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.largestSubVal = largestSubVal;
 /**
  * @function largestSubVal  - Finds the largest number value within each sub-array
  *           									of a 2D array and returns a new array consisting of
@@ -12,7 +11,7 @@ exports.largestSubVal = largestSubVal;
  * @param  {Array} arr      - A 2D array of numbers
  * @return {Array}          - An array of the largest value of each sub array
  */
-function largestSubVal(arr) {
+var largestSubVal = exports.largestSubVal = function largestSubVal(arr) {
   if (!Array.isArray(arr)) {
     throw new Error("Arguement must be an Array!");
   }
@@ -38,7 +37,7 @@ function largestSubVal(arr) {
     newArray.push(largestNumber);
   });
   return newArray;
-}
+};
 
 /*******************************************************************************
 

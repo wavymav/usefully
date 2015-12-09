@@ -20,4 +20,4 @@ export const checkPalin = (str) => {
     if ( word === wordReversed ) return true;
     else return false;
   }
-}
+};
