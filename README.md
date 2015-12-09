@@ -5,5 +5,5 @@
 [![version](https://img.shields.io/npm/v/usefully.svg?style=flat-square)](https://www.npmjs.com/package/usefully)
 [![MIT License](https://img.shields.io/npm/l/usefully.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
-![Yup](https://media.giphy.com/media/MJs7EYwHyG8XC/giphy.gif)
+![Shagfu](https://media.giphy.com/media/l41lSh8C2E39fzuta/giphy.gif)
 # Docs comming soon...
