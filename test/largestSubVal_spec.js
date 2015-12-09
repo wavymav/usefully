@@ -3,24 +3,31 @@ import {largestSubVal} from '../src/index';
 
 describe('largestSubVal()', () => {
 
-  it('should return undefined', () => {
+  it('should throw Error', () => {
     const num = 43;
     const str = 'blah';
     const bool = true;
     const emp = null;
     const obj = {};
 
-    expect(largestSubVal(num)).to.be.undefined;
-    expect(largestSubVal(bool)).to.be.undefined;
-    expect(largestSubVal(emp)).to.be.undefined;
-    expect(largestSubVal(str)).to.be.undefined;
-    expect(largestSubVal(obj)).to.be.undefined;
+    expect(() => largestSubVal(num)).to.throw(Error);
+    expect(() => largestSubVal(str)).to.throw(Error);
+    expect(() => largestSubVal(bool)).to.throw(Error);
+    expect(() => largestSubVal(emp)).to.throw(Error);
+    expect(() => largestSubVal(obj)).to.throw(Error);
   });
 
-  it('should return undefined if Array index values fail check', () => {
+  it('should throw Error if not a 2D Array', () => {
     const arrStr = ['1', '2', '4', '5'];
     const arrNum = [1, 2, 4, 5];
     const arrBool = [true, false, false];
+
+    expect(() => largestSubVal(arrStr)).to.throw(Error);
+    expect(() => largestSubVal(arrNum)).to.throw(Error);
+    expect(() => largestSubVal(arrBool)).to.throw(Error);
+  });
+
+  it('should throw Error if not a 2D Array', () => {
     const arrStr2D = [
       ['1', '2', '4', '5'],
       ['1', '2', '4', '5'],
@@ -44,13 +51,9 @@ describe('largestSubVal()', () => {
       { a:'1', b:'2', c:'4', d:'5'},
     ];
 
-    expect(largestSubVal(arrStr)).to.be.undefined
-    expect(largestSubVal(arrNum)).to.be.undefined
-    expect(largestSubVal(arrBool)).to.be.undefined
-    expect(largestSubVal(arrStr2D)).to.be.undefined
-    expect(largestSubVal(arrNum2D)).to.be.undefined
-    expect(largestSubVal(arrNum2D2)).to.be.undefined
-    expect(largestSubVal(arrStr2DObj)).to.be.undefined
+    expect(() => largestSubVal(arrNum2D)).to.throw(Error);
+    expect(() => largestSubVal(arrNum2D2)).to.throw(Error);
+    expect(() => largestSubVal(arrStr2DObj)).to.throw(Error);
   });
 
   it('should return [27, 5, 39, 1001, 56]', () => {
