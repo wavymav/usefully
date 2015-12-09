@@ -1,17 +1,14 @@
 /**
- * This function first checks if argument is not a data type of string if false
- * program proceeds on. Declares an array & Initializes 2 variables. Next, the
- * string argument is spilt into an Array of words upon which the forEach method
- * is called to iterate through the array. With each word I grab the 0 index of
- * word and capitalize it. Following that I store the every after the 0 index
- * with the substr method and convert it to lowercase. Afterwards I concat and
- * push the two new strings to wordArr. Finally I join the wordArr back into a
- * string.
+ * @function - Will capitalize the first letter of each word in a given string
+ *           arguemnt.
+ *           
  * @param  {String} str - A simple string
  * @return {String}     - A Title Cased string
  */
-export function title(str) {
-  if (typeof(str) !== 'string') return undefined;
+export const title = (str) => {
+  if (typeof(str) !== 'string') {
+    throw new Error("Arguement must be of type string!");
+  }
   let wordArr = [];
   let firstLetter;
   let restOfWord;
@@ -22,7 +19,7 @@ export function title(str) {
       wordArr.push(firstLetter + restOfWord)
   });
   return wordArr.join(' ');
-}
+};
 
 
 /*******************************************************************************

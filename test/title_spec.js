@@ -3,18 +3,18 @@ import {title} from '../src/index';
 
 describe('title()', () => {
 
-  it('should return undefined', () => {
+  it('should throw Error', () => {
     const num = 45;
     const bool = true;
     const emp = null;
     const arr = [];
     const obj = {};
 
-    expect(title(num)).to.be.undefined;
-    expect(title(bool)).to.be.undefined;
-    expect(title(emp)).to.be.undefined;
-    expect(title(arr)).to.be.undefined;
-    expect(title(obj)).to.be.undefined;
+    expect(() => title(num)).to.throw(Error);
+    expect(() => title(bool)).to.throw(Error);
+    expect(() => title(emp)).to.throw(Error);
+    expect(() => title(arr)).to.throw(Error);
+    expect(() => title(obj)).to.throw(Error);
   });
 
   it(`should return a string`, () => {
