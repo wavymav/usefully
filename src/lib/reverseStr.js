@@ -1,6 +1,6 @@
 /**
  * @function - Returns a string value in the revesed order.
- * 
+ *
  * @param  {String} str - A simple string
  * @return {String}     - Reversed string
  */
@@ -9,4 +9,4 @@ export function reverseStr(str) {
     throw new Error("Arguement must be of type string!");
   }
   else return str.split('').reverse('').join('');
-}
+};

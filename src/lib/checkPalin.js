@@ -1,7 +1,7 @@
 /**
- * @function checkPalin - Checks wheather the passed in arguement is a palindrome
- *           							or not. Will return true if argument is a palindrome.
- *           							Otherwise will return false.
+ * @function - Checks wheather the passed in arguement is a palindrome
+ *           or not. Will return true if argument is a palindrome.
+ *           Otherwise will return false.
  *
  * @param  {String} str - word or phrase
  * @return {Boolean}    - true or false

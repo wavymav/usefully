@@ -1,5 +1,5 @@
 /**
- * @function findLong   - Will find the longest word within a given string arguement
+ * @function - Will find the longest word within a given string arguement
  *
  * @param  {String} str - A simple string
  * @return {Number}     - The longestWord length value

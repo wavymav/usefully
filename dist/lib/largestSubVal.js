@@ -4,9 +4,8 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 /**
- * @function largestSubVal  - Finds the largest number value within each sub-array
- *           									of a 2D array and returns a new array consisting of
- *           									the largest Sub Values.
+ * @function - Finds the largest number value within each sub-array of a 2D
+ *           array and returns a new array consisting of the largest Sub Values.
  *
  * @param  {Array} arr      - A 2D array of numbers
  * @return {Array}          - An array of the largest value of each sub array

@@ -4,7 +4,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 /**
- * @function factorial  - Calculates the factorial of the number arguement passed in.
+ * @function - Calculates the factorial of the number arguement passed in.
  *
  * @param  {Number} num - A simple integer
  * @return {Number}     - The factorial value of the passed in integer

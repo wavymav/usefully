@@ -7,7 +7,7 @@ Object.defineProperty(exports, "__esModule", {
 function _typeof(obj) { return obj && typeof Symbol !== "undefined" && obj.constructor === Symbol ? "symbol" : typeof obj; }
 
 /**
- * @function findLong   - Will find the longest word within a given string arguement
+ * @function - Will find the longest word within a given string arguement
  *
  * @param  {String} str - A simple string
  * @return {Number}     - The longestWord length value
