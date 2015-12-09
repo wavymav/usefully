@@ -10,11 +10,11 @@ describe('checkPalin()', function() {
     const arr = [];
     const obj = {};
 
-    expect(checkPalin(num)).to.be.undefined;
-    expect(checkPalin(bool)).to.be.undefined;
-    expect(checkPalin(emp)).to.be.undefined;
-    expect(checkPalin(arr)).to.be.undefined;
-    expect(checkPalin(obj)).to.be.undefined;
+    expect(() => checkPalin(num)).to.throw(Error);
+    expect(() => checkPalin(bool)).to.throw(Error);
+    expect(() => checkPalin(emp)).to.throw(Error);
+    expect(() => checkPalin(arr)).to.throw(Error);
+    expect(() => checkPalin(obj)).to.throw(Error);
   });
 
   it('should return true', () => {
