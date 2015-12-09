@@ -5,13 +5,13 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.reverseStr = reverseStr;
 /**
- * Takes the param and checks if the data type is not a string . If true return
- * undefined, if false program continues onward. Used split method on the on
- * string to convert into an a array of letters, then called reverse along with
- * join to convert array back to string. Then return it.
+ * @function - Returns a string value in the revesed order.
+ * 
  * @param  {String} str - A simple string
  * @return {String}     - Reversed string
  */
 function reverseStr(str) {
-  if (typeof str !== 'string') return undefined;else return str.split('').reverse('').join('');
+  if (typeof str !== 'string') {
+    throw new Error("Arguement must be of type string!");
+  } else return str.split('').reverse('').join('');
 }
