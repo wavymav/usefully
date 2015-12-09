@@ -3,18 +3,18 @@ import {findLong} from '../src/index';
 
 describe('findLong()', () => {
 
-  it('should return undefined', () => {
+  it('should throw Error', () => {
     const num = 3245;
     const bool = true;
     const emp = null;
     const arr = [];
     const obj = {};
 
-    expect(findLong(num)).to.be.undefined;
-    expect(findLong(bool)).to.be.undefined;
-    expect(findLong(emp)).to.be.undefined;
-    expect(findLong(arr)).to.be.undefined;
-    expect(findLong(obj)).to.be.undefined;
+    expect(() => findLong(num)).to.throw(Error);
+    expect(() => findLong(bool)).to.throw(Error);
+    expect(() => findLong(emp)).to.throw(Error);
+    expect(() => findLong(arr)).to.throw(Error);
+    expect(() => findLong(obj)).to.throw(Error);
   });
 
   it('should return a number', () => {
