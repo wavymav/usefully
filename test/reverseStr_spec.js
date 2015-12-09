@@ -3,18 +3,18 @@ import {reverseStr} from '../src/index';
 
 describe('reverseStr()', () => {
 
-  it('should return undefined', () => {
+  it('should throw Error', () => {
     const num = 43;
     const bool = true;
     const emp = null;
     const arr = [];
     const obj = {};
 
-    expect(reverseStr(num)).to.be.undefined;
-    expect(reverseStr(bool)).to.be.undefined;
-    expect(reverseStr(emp)).to.be.undefined;
-    expect(reverseStr(arr)).to.be.undefined;
-    expect(reverseStr(obj)).to.be.undefined;
+    expect(() => reverseStr(num)).to.throw(Error);
+    expect(() => reverseStr(bool)).to.throw(Error);
+    expect(() => reverseStr(emp)).to.throw(Error);
+    expect(() => reverseStr(arr)).to.throw(Error);
+    expect(() => reverseStr(obj)).to.throw(Error);
   });
 
   it('should return "olleh"', () => {
