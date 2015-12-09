@@ -4,7 +4,7 @@
  * @param  {String} str - A simple string
  * @return {String}     - Reversed string
  */
-export function reverseStr(str) {
+export const reverseStr = (str) => {
   if (typeof(str) !== 'string') {
     throw new Error("Arguement must be of type string!");
   }
