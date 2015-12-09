@@ -3,7 +3,7 @@ import {checkPalin} from '../src/index'
 
 describe('checkPalin()', function() {
 
-  it('should return undefined', () => {
+  it('should throw Error', () => {
     const num = 3245;
     const bool = true;
     const emp = null;

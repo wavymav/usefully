@@ -12,7 +12,11 @@ export function checkPalin(str) {
   }
   else {
     let word = str.replace(/[\W_]/g, '').toLowerCase();
-    let wordReversed = str.replace(/[\W_]/g, '').split('').reverse().join('').toLowerCase();
+    let wordReversed = str.replace(/[\W_]/g, '')
+                            .split('')
+                            .reverse()
+                            .join('')
+                            .toLowerCase();
     if ( word === wordReversed ) return true;
     else return false;
   }

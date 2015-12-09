@@ -3,18 +3,18 @@ import {factorial} from '../src/index';
 
 describe('factorial()', () => {
 
-  it('should return undefined', () => {
+  it('should throw Error', () => {
     const str = '5';
     const bool = true;
     const emp = null;
     const arr = [];
     const obj = {};
 
-    expect(factorial(str)).to.be.undefined;
-    expect(factorial(bool)).to.be.undefined;
-    expect(factorial(emp)).to.be.undefined;
-    expect(factorial(arr)).to.be.undefined;
-    expect(factorial(obj)).to.be.undefined;
+    expect(() => factorial(str)).to.throw(Error);
+    expect(() => factorial(bool)).to.throw(Error);
+    expect(() => factorial(emp)).to.throw(Error);
+    expect(() => factorial(arr)).to.throw(Error);
+    expect(() => factorial(obj)).to.throw(Error);
   });
 
   it('should return 120', () => {

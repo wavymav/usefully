@@ -1,12 +1,13 @@
 /**
- * First checks to see if the passed in param is not a data type of Number. If
- * true return undefined, if false proceeds onward. Used recursion to get the
- * final value. Will end when the return value is either 1 or 0.
+ * @function factorial  - Calculates the factorial of the number arguement passed in. 
+ *
  * @param  {Number} num - A simple integer
  * @return {Number}     - The factorial value of the passed in integer
  */
 export function factorial(num) {
-  if (typeof(num) !== 'number') return undefined;
+  if (typeof(num) !== 'number') {
+    throw new Error("Arguement must be of type number!");
+  }
   else {
     if (num === 0 || num === 1) return 1;
     else return num * factorial(num - 1);
