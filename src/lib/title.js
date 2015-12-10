@@ -1,7 +1,7 @@
 /**
  * @function - Will capitalize the first letter of each word in a given string
- *           arguemnt.
- *           
+ *           arguement.
+ *
  * @param  {String} str - A simple string
  * @return {String}     - A Title Cased string
  */
