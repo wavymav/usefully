@@ -12,11 +12,11 @@ describe('strRepeat()', function() {
     const arr = [];
     const obj = {};
 
-    expect(() => strRepeat(num, str)).to.throw(Error);
-    expect(() => strRepeat(bool, bool2)).to.throw(Error);
-    expect(() => strRepeat(emp, arr)).to.throw(Error);
-    expect(() => strRepeat(arr, bool2)).to.throw(Error);
-    expect(() => strRepeat(obj, bool2)).to.throw(Error);
+    expect(() => strRepeat(num, num)).to.throw(Error);
+    expect(() => strRepeat(bool, num)).to.throw(Error);
+    expect(() => strRepeat(emp, num)).to.throw(Error);
+    expect(() => strRepeat(arr, num)).to.throw(Error);
+    expect(() => strRepeat(obj, num)).to.throw(Error);
   });
 
   it('should throw Error if second param is not a number', () => {
@@ -28,11 +28,11 @@ describe('strRepeat()', function() {
     const arr = [];
     const obj = {};
 
-    expect(() => strRepeat(num, emp)).to.throw(Error);
-    expect(() => strRepeat(num, bool)).to.throw(Error);
-    expect(() => strRepeat(num, arr)).to.throw(Error);
-    expect(() => strRepeat(num, str)).to.throw(Error);
-    expect(() => strRepeat(num, obj)).to.throw(Error);
+    expect(() => strRepeat(str, emp)).to.throw(Error);
+    expect(() => strRepeat(bool2, bool)).to.throw(Error);
+    expect(() => strRepeat(str, arr)).to.throw(Error);
+    expect(() => strRepeat(bool2, str)).to.throw(Error);
+    expect(() => strRepeat(str, obj)).to.throw(Error);
   });
 
   it('should return "***"', () => {

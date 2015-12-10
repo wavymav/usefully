@@ -66,3 +66,12 @@ Object.defineProperty(exports, 'confirmEnd', {
     return _confirmEnd.confirmEnd;
   }
 });
+
+var _strRepeat = require('./lib/strRepeat');
+
+Object.defineProperty(exports, 'strRepeat', {
+  enumerable: true,
+  get: function get() {
+    return _strRepeat.strRepeat;
+  }
+});
