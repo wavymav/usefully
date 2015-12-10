@@ -57,3 +57,12 @@ Object.defineProperty(exports, 'largestSubVal', {
     return _largestSubVal.largestSubVal;
   }
 });
+
+var _confirmEnd = require('./lib/confirmEnd');
+
+Object.defineProperty(exports, 'confirmEnd', {
+  enumerable: true,
+  get: function get() {
+    return _confirmEnd.confirmEnd;
+  }
+});
