@@ -75,3 +75,12 @@ Object.defineProperty(exports, 'strRepeat', {
     return _strRepeat.strRepeat;
   }
 });
+
+var _truncateStr = require('./lib/truncateStr');
+
+Object.defineProperty(exports, 'truncateStr', {
+  enumerable: true,
+  get: function get() {
+    return _truncateStr.truncateStr;
+  }
+});
