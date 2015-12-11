@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "report-coverage": "cat ./coverage/lcov.info | codecov",
-    "check-coverage": "babel-istanbul check-coverage --statements 100 --branches 100 --function 100 --lines 100",
+    "check-coverage": "babel-istanbul check-coverage --statements 100 --branches 90 --function 100 --lines 100",
     "prebuild": "rm -rf dist && mkdir dist",
     "build": "babel src -d dist",
     "test": "node_modules/.bin/babel-node node_modules/.bin/babel-istanbul cover node_modules/.bin/_mocha -- test",

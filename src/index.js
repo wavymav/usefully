@@ -6,3 +6,4 @@ export {title} from './lib/title';
 export {largestSubVal} from './lib/largestSubVal';
 export {confirmEnd} from './lib/confirmEnd';
 export {strRepeat} from './lib/strRepeat';
+export {truncateStr} from './lib/truncateStr';
