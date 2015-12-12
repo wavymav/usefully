@@ -93,3 +93,12 @@ Object.defineProperty(exports, 'chunkArr', {
     return _chunkArr.chunkArr;
   }
 });
+
+var _slashArr = require('./lib/slashArr');
+
+Object.defineProperty(exports, 'slashArr', {
+  enumerable: true,
+  get: function get() {
+    return _slashArr.slashArr;
+  }
+});
