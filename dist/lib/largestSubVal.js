@@ -12,7 +12,7 @@ Object.defineProperty(exports, "__esModule", {
  */
 var largestSubVal = exports.largestSubVal = function largestSubVal(arr) {
   if (!Array.isArray(arr)) {
-    throw new Error("Arguement must be an Array!");
+    throw new Error("Argument must be an Array!");
   }
   var newArray = [];
   var largestNumber = undefined,
@@ -20,7 +20,7 @@ var largestSubVal = exports.largestSubVal = function largestSubVal(arr) {
 
   arr.forEach(function (subArr) {
     if (!Array.isArray(subArr)) {
-      throw new Error("Arguement must be an 2D Array!");
+      throw new Error("Argument must be an 2D Array!");
     }
     var comparison = 0;
     subArr.forEach(function (value) {

@@ -1,6 +1,6 @@
 /**
- * @function - Will split the first arguement (Array) into a 2D array consisting
- *           of sub array groups the length of the second arguement number value.
+ * @function - Will split the first argument (Array) into a 2D array consisting
+ *           of sub array groups the length of the second argument number value.
  *
  * @param  {Array} arr    - Initial Array (must be 1 Dimensional)
  * @param  {Number} size  - Size of the sub array groups
@@ -8,10 +8,10 @@
  */
 export const chunkArr = (arr, size) => {
   if (!Array.isArray(arr)) {
-    throw new Error("Arguement must be an Array!");
+    throw new Error("Argument must be an Array!");
   }
   if (typeof(size) !== 'number') {
-    throw new Error("Arguement must be of type number!");
+    throw new Error("Argument must be of type number!");
   }
 
   let chunkArr = [];

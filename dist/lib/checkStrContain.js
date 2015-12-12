@@ -4,7 +4,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 /**
- * @function - Will return true if the the first string arguement contains all of
+ * @function - Will return true if the the first string argument contains all of
  *           the second string arguments letters.
  *
  * @param  {Array} arr  - An array containing one or two string elements
@@ -12,7 +12,7 @@ Object.defineProperty(exports, "__esModule", {
  */
 var checkStrContain = exports.checkStrContain = function checkStrContain(arr) {
   if (!Array.isArray(arr)) {
-    throw new Error("Arguement must be an Array!");
+    throw new Error("Argument must be an Array!");
   }
   if (arr.length === 2) {
     if (typeof arr[0] !== 'string' && typeof arr[1] !== 'string') {

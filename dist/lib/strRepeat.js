@@ -4,8 +4,8 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 /**
- * @function - Will repeat the first string arguement n times based on the value
- *           of the second number arguement.
+ * @function - Will repeat the first string argument n times based on the value
+ *           of the second number argument.
  *
  * @param  {String} str - String value to be repeated
  * @param  {Number} num - Number of time to repeeat string
@@ -13,10 +13,10 @@ Object.defineProperty(exports, "__esModule", {
  */
 var strRepeat = exports.strRepeat = function strRepeat(str, num) {
   if (typeof str !== 'string') {
-    throw new Error("First arguement must be of type string!");
+    throw new Error("First argument must be of type string!");
   }
   if (typeof num !== 'number') {
-    throw new Error("Second arguement must be of type number!");
+    throw new Error("Second argument must be of type number!");
   }
 
   var repeatedString = '';

@@ -1,6 +1,6 @@
 /**
- * @function - Will truncate the first string arguement based on the second number
- *            arguement value which is reponsible targeting the strings the index
+ * @function - Will truncate the first string argument based on the second number
+ *            argument value which is reponsible targeting the strings the index
  *            value.
  *
  * @param  {String} str - String to truncate
@@ -9,10 +9,10 @@
  */
 export const truncateStr = (str, num) => {
   if (typeof(str) !== 'string') {
-    throw new Error("First arguement must be of type string!");
+    throw new Error("First argument must be of type string!");
   }
   if (typeof(num) !== 'number') {
-    throw new Error("Second arguement must be of type number!");
+    throw new Error("Second argument must be of type number!");
   }
 
   if (str.length > num) {

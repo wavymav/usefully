@@ -1,13 +1,13 @@
 /**
  * @function - Will capitalize the first letter of each word in a given string
- *           arguement.
+ *           argument.
  *
  * @param  {String} str - A simple string
  * @return {String}     - A Title Cased string
  */
 export const title = (str) => {
   if (typeof(str) !== 'string') {
-    throw new Error("Arguement must be of type string!");
+    throw new Error("Argument must be of type string!");
   }
   let wordArr = [];
   let firstLetter;

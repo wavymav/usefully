@@ -1,12 +1,12 @@
 /**
- * @function - Will find the longest word within a given string arguement
+ * @function - Will find the longest word within a given string argument
  *
  * @param  {String} str - A simple string
  * @return {Number}     - The longestWord length value
  */
 export const findLong = (str) => {
   if (typeof(str) !== 'string') {
-    throw new Error("Arguement must be of type string!");
+    throw new Error("Argument must be of type string!");
   }
   else {
     let wordArr = str.split(' ');

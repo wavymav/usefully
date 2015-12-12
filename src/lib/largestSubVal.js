@@ -7,14 +7,14 @@
  */
 export const largestSubVal = (arr) => {
   if (!Array.isArray(arr)) {
-    throw new Error("Arguement must be an Array!");
+    throw new Error("Argument must be an Array!");
   }
   let newArray = [];
   let largestNumber, currentNumber;
 
   arr.forEach(subArr => {
     if (!Array.isArray(subArr)) {
-      throw new Error("Arguement must be an 2D Array!");
+      throw new Error("Argument must be an 2D Array!");
     }
     let comparison = 0;
     subArr.forEach(value => {

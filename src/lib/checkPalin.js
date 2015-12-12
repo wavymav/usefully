@@ -1,5 +1,5 @@
 /**
- * @function - Checks wheather the passed in arguement is a palindrome
+ * @function - Checks wheather the passed in argument is a palindrome
  *           or not. Will return true if argument is a palindrome.
  *           Otherwise will return false.
  *
@@ -8,7 +8,7 @@
  */
 export const checkPalin = (str) => {
   if (typeof(str) !== 'string') {
-    throw new Error("Arguement must be of type string!");
+    throw new Error("Argument must be of type string!");
   }
   else {
     let word = str.replace(/[\W_]/g, '').toLowerCase();

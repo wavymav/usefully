@@ -3,7 +3,7 @@ import {bounceFalse} from '../src/index';
 
 describe('bounceFalse()', function() {
 
-  it('should throw Error if arguement is not an Array', () => {
+  it('should throw Error if argument is not an Array', () => {
     const num = 3245;
     const str = 'car';
     const bool = true;

@@ -1,12 +1,12 @@
 /**
- * @function - Will remove all false elements from Array arguement.
+ * @function - Will remove all false elements from Array argument.
  *
  * @param  {Array} arr - Initial Array
  * @return {Array}     - New Array with no false values
  */
 export const bounceFalse = (arr) => {
   if (!Array.isArray(arr)) {
-    throw new Error("Arguement must be an Array!");
+    throw new Error("Argument must be an Array!");
   }
 
   return arr.filter((item) => {

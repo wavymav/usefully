@@ -11,6 +11,6 @@ Object.defineProperty(exports, "__esModule", {
  */
 var reverseStr = exports.reverseStr = function reverseStr(str) {
   if (typeof str !== 'string') {
-    throw new Error("Arguement must be of type string!");
+    throw new Error("Argument must be of type string!");
   } else return str.split('').reverse('').join('');
 };

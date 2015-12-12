@@ -1,5 +1,5 @@
 /**
- * @function - Checks if the first string arguement ends with the second string
+ * @function - Checks if the first string argument ends with the second string
  *           arguments target value.
  *
  * @param  {String} str    - Word or phase
@@ -8,10 +8,10 @@
  */
 export const confirmEnd = (str, target) => {
   if (typeof(str) !== 'string') {
-    throw new Error('First arguement must be of type string');
+    throw new Error('First argument must be of type string');
   }
   if (typeof(target) !== 'string') {
-    throw new Error('Second arguement must be of type string');
+    throw new Error('Second argument must be of type string');
   }
   let targetWord = -(target.length);
   if (str.substr(targetWord) === target) return true;
