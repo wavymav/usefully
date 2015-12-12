@@ -11,3 +11,4 @@ export {chunkArr} from './lib/chunkArr';
 export {slashArr} from './lib/slashArr';
 export {checkStrContain} from './lib/checkStrContain';
 export {bounceFalse} from './lib/bounceFalse';
+export {destroyArrElement} from './lib/destroyArrElement';
