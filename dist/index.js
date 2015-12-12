@@ -120,3 +120,12 @@ Object.defineProperty(exports, 'bounceFalse', {
     return _bounceFalse.bounceFalse;
   }
 });
+
+var _destroyArrElement = require('./lib/destroyArrElement');
+
+Object.defineProperty(exports, 'destroyArrElement', {
+  enumerable: true,
+  get: function get() {
+    return _destroyArrElement.destroyArrElement;
+  }
+});
