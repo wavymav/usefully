@@ -84,3 +84,12 @@ Object.defineProperty(exports, 'truncateStr', {
     return _truncateStr.truncateStr;
   }
 });
+
+var _chunkArr = require('./lib/chunkArr');
+
+Object.defineProperty(exports, 'chunkArr', {
+  enumerable: true,
+  get: function get() {
+    return _chunkArr.chunkArr;
+  }
+});
