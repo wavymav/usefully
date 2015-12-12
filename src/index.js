@@ -9,3 +9,4 @@ export {strRepeat} from './lib/strRepeat';
 export {truncateStr} from './lib/truncateStr';
 export {chunkArr} from './lib/chunkArr';
 export {slashArr} from './lib/slashArr';
+export {checkStrContain} from './lib/checkStrContain';

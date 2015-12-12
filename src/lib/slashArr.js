@@ -1,5 +1,5 @@
 /**
- * @function - Will chop off n (second argemuents value) elements from the head
+ * @function - Will chop off n (second arguemuents value) elements from the head
  *           of frist array arguements elements. Starting from the [0] on up.
  *
  * @param  {Array} arr      - Initial array
