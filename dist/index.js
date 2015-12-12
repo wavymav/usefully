@@ -102,3 +102,12 @@ Object.defineProperty(exports, 'slashArr', {
     return _slashArr.slashArr;
   }
 });
+
+var _checkStrContain = require('./lib/checkStrContain');
+
+Object.defineProperty(exports, 'checkStrContain', {
+  enumerable: true,
+  get: function get() {
+    return _checkStrContain.checkStrContain;
+  }
+});
