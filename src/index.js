@@ -10,3 +10,4 @@ export {truncateStr} from './lib/truncateStr';
 export {chunkArr} from './lib/chunkArr';
 export {slashArr} from './lib/slashArr';
 export {checkStrContain} from './lib/checkStrContain';
+export {bounceFalse} from './lib/bounceFalse';
