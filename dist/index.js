@@ -111,3 +111,12 @@ Object.defineProperty(exports, 'checkStrContain', {
     return _checkStrContain.checkStrContain;
   }
 });
+
+var _bounceFalse = require('./lib/bounceFalse');
+
+Object.defineProperty(exports, 'bounceFalse', {
+  enumerable: true,
+  get: function get() {
+    return _bounceFalse.bounceFalse;
+  }
+});
